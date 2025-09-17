@@ -52,7 +52,7 @@ function MovieList() {
                 className="book-now-button"
                 onClick={() => handleBookNow(movie._id)}
               >
-                Book Now
+                Book 
               </Button>
             </Card>
           </Col>
