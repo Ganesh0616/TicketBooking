@@ -43,7 +43,7 @@ function MovieList() {
                 title={<span className="movie-card-title">{movie.name}</span>}
                 description={
                   <span className="movie-card-price">
-                    Price: ₹{movie.ticketprice ?? "N/A"}
+                    Price: {movie.ticketprice ?? "N/A"}
                   </span>
                 }
               />
