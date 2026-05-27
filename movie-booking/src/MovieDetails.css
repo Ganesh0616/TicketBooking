@@ -1,0 +1,40 @@
+.movie-details-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.movie-details-card {
+  width: 400px;
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color:green;
+  overflow: hidden;
+}
+
+.movie-details-image {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie-details-title {
+  color: white;
+  font-size: 24px;
+}
+
+.movie-details-price {
+  color:green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie-details-description {
+  margin-top: 10px;
+  color: #bbb;
+}
